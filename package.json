@@ -1,7 +1,7 @@
 {
 	"name": "transform-async-to-sync",
 	"version": "1.0.0",
-	"description": "This tips and trick for handle race condition",
+	"description": "This is tips and trick for handle race condition",
 	"main": "index.js",
 	"scripts": {
 		"sync": "node sync.js",
