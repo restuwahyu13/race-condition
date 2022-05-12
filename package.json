@@ -1,0 +1,19 @@
+{
+	"name": "transform-async-to-sync",
+	"version": "1.0.0",
+	"description": "This tips and trick for handle race condition",
+	"main": "index.js",
+	"scripts": {
+		"sync": "node sync.js",
+		"async": "node async.js"
+	},
+	"author": "restuwahyu13",
+	"license": "MIT",
+	"dependencies": {
+		"async-mutex": "^0.2.6",
+		"mutexify": "^1.4.0"
+	},
+	"devDependencies": {
+		"@types/node": "^17.0.32"
+	}
+}
